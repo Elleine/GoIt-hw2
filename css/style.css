@@ -264,7 +264,6 @@ h2 {
       margin-top: 50px;
 width: 73px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #2196F3;
     padding: 16px, 32px;
