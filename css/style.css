@@ -261,8 +261,8 @@ h2 {
     letter-spacing: 0.64px;
 }
 .all-button {
+      margin-top: 50px;
 width: 73px;
-     margin-top: 50px;
     height: 38px;
     flex-shrink: 0;
     border-radius: 4px;
