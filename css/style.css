@@ -24,6 +24,10 @@ h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+
+h3 {
+    margin-top: 20px;
+}
 .nav-ul-li:hover,
 .nav-ul-li.active {
     background: blue;
@@ -115,11 +119,18 @@ h2 {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.nav-ul-li a {
+    text-decoration: none;
+    color: inherit;
+}
 
-.address-ul li a:hover,
-.address-ul li a:focus {
+.address-ul-li a:hover,
+.address-ul-li a:focus {
+    text-decoration: underline;
+    text-decoration-color: #404BBF;
     color: #404BBF;
 }
+
 .motto {
     background-color: #2e2f42;
     height: 600px;
@@ -187,11 +198,7 @@ h2 {
     letter-spacing: 0.32px;
     width: 264px;
 }
-.duty {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
+
 .team {
     background-color: #f4f4fd;
     padding: 120px 156px;
@@ -261,9 +268,10 @@ h2 {
     letter-spacing: 0.64px;
 }
 .all-button {
-      margin-top: 50px;
+    margin-top: 50px;
 width: 73px;
     height: 38px;
+    flex-shrink: 0;
     border-radius: 4px;
     background: #2196F3;
     padding: 16px, 32px;
@@ -284,16 +292,16 @@ width: 73px;
 
 
 .portfolio {
-justify-content: center;
- gap: 30px;
- flex-wrap: wrap;
+
+       
+    box-sizing: border-box;
+
 }
 
 .portfolio ul {
         justify-content: center;
         gap: 24px;
-        display: flex;
-        flex-wrap: wrap;
+      
         
 }
 .portfolio-ul {
@@ -318,22 +326,29 @@ justify-content: center;
     justify-content: space-between;
 }
 
-
-.footer-bottom-wrapper a {
+.footer-bottom-wrapper {
     text-decoration: none;
-    color: #f4f4fd;
     font-family: Raleway;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin: 0;
+    margin-right: 260px;
+}
+.footer-logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: 260px;
+    margin-top: 60px;
 }
 
-.footer-bottom-wrapper p {
-    margin-top: 16px;
-}
-
-.footer-bottom-wrapper span {
+.footer-logo-link span {
     color: #4d5ae5;
 }
 
@@ -341,6 +356,8 @@ justify-content: center;
     color: #f4f4fd;
     font-size: 16px;
     letter-spacing: 0.32px;
+    margin-top: 20px;
+    gap: 10px;
 }
 
 
